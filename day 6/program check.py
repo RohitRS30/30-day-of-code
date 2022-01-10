@@ -17,6 +17,7 @@ elif(b>80 and b<=90):
      print("Excellent ",a)
 elif(b>=60 and b<=80):
     print("Grade::C")
+    print("very good",a)
 elif(b>=50 and b<60):
     print("Grade::D")
     print("good",a)
