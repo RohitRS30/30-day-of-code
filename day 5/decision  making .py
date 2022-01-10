@@ -26,7 +26,7 @@ bot=input("Enter your Name/Contact/Address/Email like yyour choice :")
 if(bot=="Name"):
     name=input("Enter your name:")
     print("Hey",name)
-elif(bot=="Contact"):
+if(bot=="Mobile"):
     cont=input("Enter your contact number:")
     print("Your number is saved")
 elif(bot=="Email"):
