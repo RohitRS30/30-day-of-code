@@ -24,8 +24,8 @@ if(a==2):
     if(d=="PRO30"):
         amount= 1,19,900
         Discount= amount*30/100
-        print("You Win 5% discount")
-        print("Net payable amount is:",amount-Discount)
+        print(f"You Win 5% discount")
+        print(f"Net payable amount is:",amount-Discount)
     else:
         print("You have Enter invalid coupon code")
 if(a==3):
@@ -34,7 +34,7 @@ if(a==3):
     d=input("Type your coupon code to get some disconnt:")
     if(d=="PRO20"):
         pay=79,900*(20/100)
-        print()
+        
         print(f"You Win 20% discount")
         print(f"Net payable amount is:{pay}")
     else:
