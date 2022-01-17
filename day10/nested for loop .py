@@ -8,8 +8,8 @@ for j in range (a,a+1):
     print("\n")
 
 # second task is print row coloum 
-b= int (input("ENTER THE NUMBER ="))
-c= int (input("ENTER THE NUMBER ="))
+b= int (input("ENTER THE row NUMBER ="))
+c= int (input("ENTER THE columns NUMBER ="))
 
 row=b
 columns =c
