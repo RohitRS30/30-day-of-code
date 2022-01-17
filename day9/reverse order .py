@@ -9,3 +9,11 @@ prime = [i + 1 for i in even ]
 print(prime)
 
 #task 3 series upto n terms
+n= int(input("enter the number N"))
+fact=1
+sum = 0
+for a in range (1,n+1):
+    fact =a
+    sum = sum +a/fact
+
+    print("sum is ",sum)
